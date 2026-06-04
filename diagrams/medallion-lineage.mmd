@@ -1,0 +1,17 @@
+%% Medallion lineage — Insurance Lakehouse. Source for medallion-lineage.svg.
+flowchart LR
+  G["Local Python<br/>data_generator"] -->|databricks fs cp| V
+  subgraph V["UC Volume: insurance.landing.raw"]
+    direction TB
+    F1["customers/*.csv"]
+    F2["policies/*.json"]
+    F3["claims/*.json"]
+    F4["payments/*.parquet"]
+    F5["agents/*.csv"]
+    F6["telematics/*.jsonl"]
+    F7["reference/*.csv"]
+  end
+  V -->|"Auto Loader · COPY INTO · read_files"| B["BRONZE<br/>append-only + metadata"]
+  B -->|"expectations · dedupe · MERGE / SCD2"| S["SILVER<br/>clean · conform"]
+  S -->|"aggregations"| Gd["GOLD<br/>facts · dims · MVs"]
+  Gd -->|"serverless SQL"| D["AI/BI Dashboards"]

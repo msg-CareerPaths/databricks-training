@@ -28,6 +28,36 @@ src/                       <- worked examples (complete) + TODO stubs you finish
 
 ---
 
+## Repository layout & quickstart
+
+```
+readme.md            the career-path web-app catalog (Mandatory / Optional content)
+chapters/            web-app chapters: 000–990 (1:1 with milestones) + opt-* stretch
+diagrams/            SVG diagrams (medallion lineage, gold star schema) embedded by chapters/readme
+data_generator/      local Python generator — 7 insurance sources, seeded DQ defects
+src/                 worked examples (complete) + TODO stubs (bronze/silver/gold/pipelines)
+resources/           Lakeflow Job + Declarative Pipeline bundle resources
+databricks.yml       Declarative Automation Bundle (dev / test / prod targets)
+scripts/             generate + upload helpers
+dashboards/          AI/BI dashboard spec
+docs/                this guide, requirements, data dictionary, checklist, CLI cookbook, studybook
+tests/               pytest suite for the generator + DQ rules
+```
+
+Quickstart (generate the dataset locally, then start at Chapter 0):
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r data_generator/requirements.txt
+python -m data_generator.generate --mode initial --target-mb 500 --out data/landing
+pytest tests/        # optional: verify the generator
+```
+Then upload to a Unity Catalog Volume (Chapter 2 / `scripts/upload_to_volume.sh`) and work the
+chapters. **Status:** complete end-to-end — generator, worked examples + all M0–M10 stubs,
+Lakeflow Job + Declarative Automation Bundle, studybook, dashboards spec — plus the
+`chapters/` + `diagrams/` layer that the career-path web app ingests.
+
+---
+
 ## The exam (authoritative — May 4 2026 guide)
 
 > Source of truth: the official *Databricks Certified Data Engineer Associate* exam
