@@ -1,0 +1,583 @@
+{
+  "nodes": [
+    {
+      "id": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "RoadmapNode",
+      "zIndex": 10,
+      "style": {
+        "zIndex": 10,
+        "height": 1084,
+        "width": 820
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": true,
+        "label": "Databricks DE Associate",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/readme.md"
+      },
+      "width": 820,
+      "height": 1084,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 0,
+        "y": 0
+      },
+      "dragging": false
+    },
+    {
+      "id": "f00e0253-7db9-5518-a9a3-f9183b4d20f2",
+      "position": {
+        "x": 60,
+        "y": 80
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Introduction",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/000-introduction.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 80
+      },
+      "dragging": false
+    },
+    {
+      "id": "dcde5ad1-3ca1-5bf4-8e50-f60d866375e8",
+      "position": {
+        "x": 60,
+        "y": 162
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Platform Foundations",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/100-platform-foundations.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 162
+      },
+      "dragging": false
+    },
+    {
+      "id": "49da3b0f-0bd5-5b83-a4a1-210f64ad7715",
+      "position": {
+        "x": 60,
+        "y": 244
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Generate & Land",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/200-generate-and-land.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 244
+      },
+      "dragging": false
+    },
+    {
+      "id": "8194b0c3-d119-5aa2-919a-5bcd0b749ba4",
+      "position": {
+        "x": 60,
+        "y": 326
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Bronze Ingestion",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/300-bronze-ingestion.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 326
+      },
+      "dragging": false
+    },
+    {
+      "id": "6ff06f4c-3d68-5af8-9b9f-1d268c580f23",
+      "position": {
+        "x": 60,
+        "y": 408
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Silver Transform",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/400-silver-transform.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 408
+      },
+      "dragging": false
+    },
+    {
+      "id": "92400a20-5af7-5c7f-90be-d84ae73df867",
+      "position": {
+        "x": 60,
+        "y": 490
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Gold Modeling",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/500-gold-modeling.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 490
+      },
+      "dragging": false
+    },
+    {
+      "id": "92479cbc-ea61-5b00-b4fe-cbb4fb6c17d5",
+      "position": {
+        "x": 60,
+        "y": 572
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Declarative Pipelines",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/600-declarative-pipelines.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 572
+      },
+      "dragging": false
+    },
+    {
+      "id": "86bbff82-ccb4-5669-8d0e-404884c73177",
+      "position": {
+        "x": 60,
+        "y": 654
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Lakeflow Jobs",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/700-lakeflow-jobs.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 654
+      },
+      "dragging": false
+    },
+    {
+      "id": "5b6d5fb5-0f79-5a2a-a848-0ed5cfbbb079",
+      "position": {
+        "x": 60,
+        "y": 736
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "CI/CD & Bundles",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/800-cicd-bundles.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 736
+      },
+      "dragging": false
+    },
+    {
+      "id": "76d8adf1-17ce-5066-96ae-11cb7802eba0",
+      "position": {
+        "x": 60,
+        "y": 818
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Troubleshooting & Optimization",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/900-troubleshooting-optimization.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 818
+      },
+      "dragging": false
+    },
+    {
+      "id": "3f9bb280-4a60-5fd1-be65-6a8e3ea42ea2",
+      "position": {
+        "x": 60,
+        "y": 900
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Governance & Security",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/950-governance-security.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 900
+      },
+      "dragging": false
+    },
+    {
+      "id": "17c6cad6-3c7c-5b0b-ae04-8ee40331c4c7",
+      "position": {
+        "x": 60,
+        "y": 982
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Main path",
+        "isContainer": false,
+        "label": "Dashboards & Readiness",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/990-dashboards-and-readiness.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 982
+      },
+      "dragging": false
+    },
+    {
+      "id": "651c8179-03d6-5e25-a5b8-ab231d6804d4",
+      "position": {
+        "x": 520,
+        "y": 80
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Optional path",
+        "isContainer": false,
+        "label": "Lakeflow Connect",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/opt-100-lakeflow-connect.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 520,
+        "y": 80
+      },
+      "dragging": false
+    },
+    {
+      "id": "7e0e8d9a-cd25-5a04-96bc-6e1b14d6073a",
+      "position": {
+        "x": 520,
+        "y": 162
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Optional path",
+        "isContainer": false,
+        "label": "Streaming Deep-Dive",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/opt-200-streaming-deep-dive.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 520,
+        "y": 162
+      },
+      "dragging": false
+    },
+    {
+      "id": "721bb917-ac29-5646-b347-1fb61765ed94",
+      "position": {
+        "x": 520,
+        "y": 244
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Optional path",
+        "isContainer": false,
+        "label": "Liquid Clustering",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/opt-300-performance-liquid-clustering.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 520,
+        "y": 244
+      },
+      "dragging": false
+    },
+    {
+      "id": "2d918601-4df7-56e3-88d6-3f9c76d19c31",
+      "position": {
+        "x": 520,
+        "y": 326
+      },
+      "type": "RoadmapNode",
+      "zIndex": 11,
+      "style": {
+        "zIndex": 11
+      },
+      "data": {
+        "pathType": "Optional path",
+        "isContainer": false,
+        "label": "GitHub Actions CI",
+        "isReadonly": false,
+        "url": "https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/chapters/opt-400-cicd-github-actions.md"
+      },
+      "extent": "parent",
+      "parentNode": "13daec5b-b9bf-5d57-84d5-15005d966658",
+      "width": 240,
+      "height": 43,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 520,
+        "y": 326
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "f00e0253-7db9-5518-a9a3-f9183b4d20f2",
+      "sourceHandle": "output-handle",
+      "target": "dcde5ad1-3ca1-5bf4-8e50-f60d866375e8",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-f00e0253-7db9-5518-a9a3-f9183b4d20f2output-handle-dcde5ad1-3ca1-5bf4-8e50-f60d866375e8input-handle-top"
+    },
+    {
+      "source": "dcde5ad1-3ca1-5bf4-8e50-f60d866375e8",
+      "sourceHandle": "output-handle",
+      "target": "49da3b0f-0bd5-5b83-a4a1-210f64ad7715",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-dcde5ad1-3ca1-5bf4-8e50-f60d866375e8output-handle-49da3b0f-0bd5-5b83-a4a1-210f64ad7715input-handle-top"
+    },
+    {
+      "source": "49da3b0f-0bd5-5b83-a4a1-210f64ad7715",
+      "sourceHandle": "output-handle",
+      "target": "8194b0c3-d119-5aa2-919a-5bcd0b749ba4",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-49da3b0f-0bd5-5b83-a4a1-210f64ad7715output-handle-8194b0c3-d119-5aa2-919a-5bcd0b749ba4input-handle-top"
+    },
+    {
+      "source": "8194b0c3-d119-5aa2-919a-5bcd0b749ba4",
+      "sourceHandle": "output-handle",
+      "target": "6ff06f4c-3d68-5af8-9b9f-1d268c580f23",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-8194b0c3-d119-5aa2-919a-5bcd0b749ba4output-handle-6ff06f4c-3d68-5af8-9b9f-1d268c580f23input-handle-top"
+    },
+    {
+      "source": "6ff06f4c-3d68-5af8-9b9f-1d268c580f23",
+      "sourceHandle": "output-handle",
+      "target": "92400a20-5af7-5c7f-90be-d84ae73df867",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-6ff06f4c-3d68-5af8-9b9f-1d268c580f23output-handle-92400a20-5af7-5c7f-90be-d84ae73df867input-handle-top"
+    },
+    {
+      "source": "92400a20-5af7-5c7f-90be-d84ae73df867",
+      "sourceHandle": "output-handle",
+      "target": "92479cbc-ea61-5b00-b4fe-cbb4fb6c17d5",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-92400a20-5af7-5c7f-90be-d84ae73df867output-handle-92479cbc-ea61-5b00-b4fe-cbb4fb6c17d5input-handle-top"
+    },
+    {
+      "source": "92479cbc-ea61-5b00-b4fe-cbb4fb6c17d5",
+      "sourceHandle": "output-handle",
+      "target": "86bbff82-ccb4-5669-8d0e-404884c73177",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-92479cbc-ea61-5b00-b4fe-cbb4fb6c17d5output-handle-86bbff82-ccb4-5669-8d0e-404884c73177input-handle-top"
+    },
+    {
+      "source": "86bbff82-ccb4-5669-8d0e-404884c73177",
+      "sourceHandle": "output-handle",
+      "target": "5b6d5fb5-0f79-5a2a-a848-0ed5cfbbb079",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-86bbff82-ccb4-5669-8d0e-404884c73177output-handle-5b6d5fb5-0f79-5a2a-a848-0ed5cfbbb079input-handle-top"
+    },
+    {
+      "source": "5b6d5fb5-0f79-5a2a-a848-0ed5cfbbb079",
+      "sourceHandle": "output-handle",
+      "target": "76d8adf1-17ce-5066-96ae-11cb7802eba0",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-5b6d5fb5-0f79-5a2a-a848-0ed5cfbbb079output-handle-76d8adf1-17ce-5066-96ae-11cb7802eba0input-handle-top"
+    },
+    {
+      "source": "76d8adf1-17ce-5066-96ae-11cb7802eba0",
+      "sourceHandle": "output-handle",
+      "target": "3f9bb280-4a60-5fd1-be65-6a8e3ea42ea2",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-76d8adf1-17ce-5066-96ae-11cb7802eba0output-handle-3f9bb280-4a60-5fd1-be65-6a8e3ea42ea2input-handle-top"
+    },
+    {
+      "source": "3f9bb280-4a60-5fd1-be65-6a8e3ea42ea2",
+      "sourceHandle": "output-handle",
+      "target": "17c6cad6-3c7c-5b0b-ae04-8ee40331c4c7",
+      "targetHandle": "input-handle-top",
+      "id": "reactflow__edge-3f9bb280-4a60-5fd1-be65-6a8e3ea42ea2output-handle-17c6cad6-3c7c-5b0b-ae04-8ee40331c4c7input-handle-top"
+    }
+  ],
+  "id": "12388307-60d3-58ac-ad02-bac14269d286",
+  "tags": [
+    "databricks",
+    "data-engineering"
+  ],
+  "title": "Databricks Data Engineer Associate",
+  "targetAudience": "Associate & IT Consultants"
+}
