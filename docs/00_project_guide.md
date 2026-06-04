@@ -19,8 +19,8 @@ docs/
   01_requirements.md       <- the 8 business questions your gold layer must answer
   02_todo_checklist.md     <- M0–M10 worklist (your primary checklist)
   03_data_dictionary.md    <- source schemas + the seeded data-quality defects
-  04_exam_blueprint_map.md <- every exam objective → milestone/stub/doc  (Slice 2)
-  05_databricks_cli_cookbook.md <- CLI recipes                            (Slice 2)
+  04_exam_blueprint_map.md <- every exam objective → milestone/stub/doc
+  05_databricks_cli_cookbook.md <- CLI recipes (auth, volumes, bundle, jobs)
   studybook/               <- one theory+code chapter per milestone
 data_generator/            <- run locally to produce the dataset
 src/                       <- worked examples (complete) + TODO stubs you finish
@@ -123,8 +123,8 @@ databricks volumes create insurance landing raw MANAGED
 databricks fs cp -r data/landing dbfs:/Volumes/insurance/landing/raw
 databricks fs ls dbfs:/Volumes/insurance/landing/raw
 ```
-A helper script (`scripts/upload_to_volume.sh`) wraps these. The full CLI reference lands
-in `docs/05_databricks_cli_cookbook.md` (Slice 2).
+A helper script (`scripts/upload_to_volume.sh`) wraps these. The full CLI reference is in
+`docs/05_databricks_cli_cookbook.md`.
 
 > **Why upload instead of generating in the cloud?** Free Edition's restricted internet
 > blocks installing Faker/NumPy and pulling data inside the workspace. Generating locally
@@ -136,7 +136,7 @@ in `docs/05_databricks_cli_cookbook.md` (Slice 2).
 ## M2–M10 · Build the lakehouse (overview)
 
 You now have raw files in a Volume. The rest of the path (each milestone has a studybook
-chapter + checklist entry; **M3–M10 chapters arrive in Slice 2**):
+chapter + checklist entry):
 
 - **M2 — Bronze:** ingest each source with the right tool — Auto Loader (+schema
   evolution) for customers/telematics, `read_files`/`multiLine` for policies, COPY INTO

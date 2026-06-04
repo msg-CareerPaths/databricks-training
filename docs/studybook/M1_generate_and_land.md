@@ -46,7 +46,7 @@ databricks volumes create insurance landing raw MANAGED
 databricks fs cp -r data/landing dbfs:/Volumes/insurance/landing/raw
 databricks fs ls  dbfs:/Volumes/insurance/landing/raw
 ```
-(or just run `scripts/upload_to_volume.sh` — Slice 2.)
+(or just run `scripts/upload_to_volume.sh`.)
 
 **Peek at the landed files from a notebook (SQL `read_files`):**
 ```sql

@@ -1,0 +1,21 @@
+# Lakeflow Spark Declarative Pipeline (serverless) that materializes the medallion.
+# Referenced by databricks.yml; deployed with `databricks bundle deploy`.
+# Source lives in src/pipelines/ (start from either the .sql or the .py — not both).
+resources:
+  pipelines:
+    insurance_pipeline:
+      name: insurance-medallion-${bundle.target}
+      catalog: ${var.catalog}
+      schema: ${var.pipeline_schema}
+      serverless: true
+      photon: true
+      development: true            # set false in prod via the target override if desired
+      continuous: false            # triggered (run by the job); not always-on
+      configuration:
+        # exposed to the pipeline code; ties to src/common/config.py DEV_SCHEMA_PREFIX
+        DEV_SCHEMA_PREFIX: "${workspace.current_user.short_name}"
+      libraries:
+        - file:
+            path: ../src/pipelines/insurance_dlp.sql
+        # - file:
+        #     path: ../src/pipelines/insurance_dlp.py   # (use one source language to start)

@@ -26,17 +26,21 @@ Then upload to a Unity Catalog Volume and start M0 (see the project guide).
 ## What's in the repo
 ```
 data_generator/   synthetic insurance data generator (7 sources, seeded DQ defects)
-src/              worked examples (complete) + TODO stubs you finish, per medallion layer
-docs/             project guide, requirements, data dictionary, checklist, studybook
+src/              worked examples (complete) + TODO stubs, per medallion layer + pipelines
+resources/        Lakeflow Job + Declarative Pipeline bundle resources
+databricks.yml    Declarative Automation Bundle (dev / test / prod)
+scripts/          generate + upload helpers
+dashboards/       AI/BI dashboard spec
+docs/             guide, requirements, data dictionary, checklist, CLI cookbook, studybook
 tests/            pytest suite for the generator + DQ rules
 ```
 
-## Status (build in progress)
-- ✅ **Slice 1** — data generator (500 MB initial + 50 MB deltas, verified), reference
-  data, tests, `src/common/config.py` + worked examples (bronze/silver/gold), and the
-  core docs + studybook chapters **M0–M2**.
-- ⏳ **Slice 2** — remaining bronze/silver/gold/pipeline stubs, Lakeflow Jobs + Declarative
-  Automation Bundle, studybook **M3–M10**, dashboards, and the exam-blueprint map.
+## Status
+- ✅ **Slice 1** — data generator (500 MB initial + 50 MB deltas, verified), reference data,
+  tests, `src/common/config.py` + worked examples, core docs + studybook **M0–M2**.
+- ✅ **Slice 2** — full TODO stubs (bronze/silver/gold/pipeline), Lakeflow Job + Declarative
+  Automation Bundle (`databricks.yml` + `resources/`), studybook **M3–M10**, the exam-blueprint
+  map, CLI cookbook, and dashboards spec — buildable end-to-end by a participant.
 - ⏸️ **Phase 2** — integration with the company career-path web app (deferred;
   `docs/06_phase2_platform_integration.md`).
 
