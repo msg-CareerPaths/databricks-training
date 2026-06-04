@@ -1,0 +1,17 @@
+%% Gold star schema — Insurance Lakehouse. Source for gold-star-schema.svg.
+erDiagram
+  dim_date     ||--o{ fact_claims   : date_key
+  dim_policy   ||--o{ fact_claims   : policy_id
+  dim_customer ||--o{ fact_claims   : customer_id
+  dim_agent    ||--o{ fact_claims   : agent_id
+  dim_date     ||--o{ fact_premium  : month_key
+  dim_policy   ||--o{ fact_premium  : policy_id
+  dim_date     ||--o{ fact_payments : date_key
+  dim_policy   ||--o{ fact_payments : policy_id
+  fact_claims   { string claim_id PK int date_key FK string policy_id FK string customer_id FK string agent_id FK double loss_amount boolean fraud_flag }
+  fact_premium  { string policy_id FK int month_key FK double earned_premium }
+  fact_payments { string payment_id PK string policy_id FK int date_key FK double amount_due double amount_paid }
+  dim_date     { int date_key PK date date int year int quarter int month }
+  dim_customer { string customer_id PK string state string region string segment }
+  dim_policy   { string policy_id PK string product_line string status double sum_insured }
+  dim_agent    { string agent_id PK string region boolean is_current }

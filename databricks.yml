@@ -1,0 +1,54 @@
+# Declarative Automation Bundle root (formerly "Databricks Asset Bundles").
+# Packages the Lakeflow Job + Lakeflow Spark Declarative Pipeline and promotes them across
+# dev / test / prod with `databricks bundle validate|deploy|run`. (Exam domain 5 — M7.)
+#
+# Quick start:
+#   databricks bundle validate -t dev
+#   databricks bundle deploy   -t dev
+#   databricks bundle run insurance_ingest -t dev
+#
+# Fill in your workspace host(s) below (or set them via DATABRICKS_HOST / a CLI profile).
+bundle:
+  name: insurance-lakehouse
+
+variables:
+  catalog:
+    description: Unity Catalog for the project.
+    default: insurance
+  pipeline_schema:
+    description: Schema the declarative pipeline materializes into.
+    default: medallion
+  notification_email:
+    description: Email for job failure / DQ alerts.
+    default: you@example.com
+
+include:
+  - resources/*.yml
+
+# `dev` uses development mode (resources get your username prefix; schedules are paused) and
+# passes a per-user schema prefix into the pipeline/job so people sharing a workspace don't
+# collide. `prod` runs as a service identity with schedules live.
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://YOUR-WORKSPACE.cloud.databricks.com
+    variables:
+      pipeline_schema: medallion_dev
+
+  test:
+    mode: development
+    workspace:
+      host: https://YOUR-WORKSPACE.cloud.databricks.com
+    variables:
+      pipeline_schema: medallion_test
+
+  prod:
+    mode: production
+    workspace:
+      host: https://YOUR-WORKSPACE.cloud.databricks.com
+    run_as:
+      user_name: you@example.com
+    variables:
+      pipeline_schema: medallion
