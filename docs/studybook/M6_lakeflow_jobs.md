@@ -116,7 +116,7 @@ resources:
       parameters:
         - { name: env, default: dev }
       email_notifications:
-        on_failure: [paulhlihor@gmail.com]
+        on_failure: [you@example.com]
 
       tasks:
         # 1) land/upload the delta batch into the landing Volume (batch-incremental)

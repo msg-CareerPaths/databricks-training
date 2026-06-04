@@ -20,7 +20,7 @@ variables:
     default: medallion
   notification_email:
     description: Email for job failure / DQ alerts.
-    default: paulhlihor@gmail.com
+    default: you@example.com
 
 include:
   - resources/*.yml
@@ -49,6 +49,6 @@ targets:
     workspace:
       host: https://YOUR-WORKSPACE.cloud.databricks.com
     run_as:
-      user_name: paulhlihor@gmail.com
+      user_name: you@example.com
     variables:
       pipeline_schema: medallion
