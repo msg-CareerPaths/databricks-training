@@ -1,0 +1,7 @@
+status_code,status_name
+OPEN,Open
+CLOSED,Closed
+DENIED,Denied
+IN_REVIEW,In Review
+REOPENED,Reopened
+WITHDRAWN,Withdrawn

@@ -1,0 +1,17 @@
+peril_code,peril_name,product_line
+COLL,Collision,AUTO
+COMP,Comprehensive,AUTO
+LIAB,Liability,AUTO
+UMBI,Uninsured Motorist Bodily Injury,AUTO
+PIP,Personal Injury Protection,AUTO
+THEFT,Theft,AUTO
+HAIL,Hail,AUTO
+FIRE,Fire,PROPERTY
+WIND,Windstorm,PROPERTY
+FLOOD,Flood,PROPERTY
+WATER,Water Damage,PROPERTY
+THEFTP,Burglary or Theft,PROPERTY
+LIABP,Personal Liability,PROPERTY
+QUAKE,Earthquake,PROPERTY
+SMOKE,Smoke Damage,PROPERTY
+VANDAL,Vandalism,PROPERTY

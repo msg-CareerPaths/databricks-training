@@ -1,0 +1,37 @@
+make,model,vehicle_type,body_style
+Toyota,Camry,Passenger,Sedan
+Toyota,Corolla,Passenger,Sedan
+Toyota,RAV4,Passenger,SUV
+Toyota,Highlander,Passenger,SUV
+Toyota,Tacoma,Truck,Pickup
+Honda,Civic,Passenger,Sedan
+Honda,Accord,Passenger,Sedan
+Honda,CR-V,Passenger,SUV
+Honda,Pilot,Passenger,SUV
+Ford,F-150,Truck,Pickup
+Ford,Escape,Passenger,SUV
+Ford,Explorer,Passenger,SUV
+Ford,Mustang,Passenger,Coupe
+Chevrolet,Silverado,Truck,Pickup
+Chevrolet,Equinox,Passenger,SUV
+Chevrolet,Malibu,Passenger,Sedan
+Chevrolet,Tahoe,Passenger,SUV
+Nissan,Altima,Passenger,Sedan
+Nissan,Rogue,Passenger,SUV
+Nissan,Sentra,Passenger,Sedan
+Jeep,Wrangler,Passenger,SUV
+Jeep,Grand Cherokee,Passenger,SUV
+Subaru,Outback,Passenger,Wagon
+Subaru,Forester,Passenger,SUV
+Hyundai,Elantra,Passenger,Sedan
+Hyundai,Tucson,Passenger,SUV
+Kia,Sorento,Passenger,SUV
+Kia,Soul,Passenger,Hatchback
+Tesla,Model 3,Passenger,Sedan
+Tesla,Model Y,Passenger,SUV
+RAM,1500,Truck,Pickup
+GMC,Sierra,Truck,Pickup
+Volkswagen,Jetta,Passenger,Sedan
+Mazda,CX-5,Passenger,SUV
+BMW,3 Series,Passenger,Sedan
+Mercedes-Benz,C-Class,Passenger,Sedan

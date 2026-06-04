@@ -9,6 +9,10 @@ __pycache__/
 venv/
 env/
 .ipynb_checkpoints/
+.pytest_cache/
+
+# Claude Code local settings
+.claude/settings.local.json
 
 # Databricks
 .databricks/

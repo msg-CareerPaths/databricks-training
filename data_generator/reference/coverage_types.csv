@@ -1,0 +1,13 @@
+coverage_code,coverage_name,product_line
+BI,Bodily Injury,AUTO
+PD,Property Damage,AUTO
+COLLC,Collision Coverage,AUTO
+COMPC,Comprehensive Coverage,AUTO
+MEDPAY,Medical Payments,AUTO
+RENTAL,Rental Reimbursement,AUTO
+DWELL,Dwelling,PROPERTY
+OTHST,Other Structures,PROPERTY
+PERSP,Personal Property,PROPERTY
+LOSSU,Loss of Use,PROPERTY
+PERSL,Personal Liability,PROPERTY
+MEDPAYP,Medical Payments to Others,PROPERTY
