@@ -7,6 +7,23 @@ exam (version **May 4, 2026** — 45 questions · 90 minutes · 7 domains) by bu
 
 ![Medallion Lineage](https://raw.githubusercontent.com/msg-CareerPaths/databricks-training/main/diagrams/medallion-lineage.svg "Medallion Lineage")
 
+
+## Getting Started
+
+The training material lives at:
+**<https://github.com/msg-CareerPaths/databricks-training>**
+
+Clone it to your local machine before you begin:
+
+```bash
+git clone https://github.com/msg-CareerPaths/databricks-training.git
+cd databricks-training
+```
+
+Then open Chapter 0 and follow the setup instructions there.
+
+---
+
 ## Mandatory Content
 
  - [0. Introduction](https://github.com/msg-CareerPaths/databricks-training/blob/main/chapters/000-introduction.md)

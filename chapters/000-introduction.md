@@ -1,5 +1,15 @@
 # 0. Databricks Data Engineer Associate — Introduction
 
+---
+
+# [github.com/msg-CareerPaths/databricks-training](https://github.com/msg-CareerPaths/databricks-training)
+
+```bash
+git clone https://github.com/msg-CareerPaths/databricks-training.git
+```
+
+---
+
 ## Working Mode
 
 This training takes you from zero to a working **Databricks lakehouse** and prepares you for
